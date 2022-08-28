@@ -5,49 +5,121 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <title>Protótipo</title>
+   <title>SafeSpace</title>
 </head>
 <body>
-   
-   <div class="navbar">
-      <img src="images/logo.png" class="logo">
-      <div class="itens">
-         <a href="#">Home</a>
-         <a href="#">Valores</a>
-         <a href="#">Sobre</a>
-         <img src="images/Hamburger_icon.png">
-      </div>
-      <button>Get Started</button>
-   </div>
 
-   <div class="first_page">
-      <div class="container">
-         <div class="texto_principal">
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+   <section id="main">
+      <div class="navbar">
+         <div class="logo">
+            <h1>SafeSpace</h1>
          </div>
-         <div class="imagem_principal">
-            <img src="images/credit-card.png">
+         <div class="group_buttons_nav">
+            <button>Cadastro</button>
+            <b>|</b>
+            <button>Login</button>
          </div>
       </div>
-   </div>
+      <div class="first_page">
+         <div class="container">
+            <div class="texto_principal">
+               <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+               <button>Saiba mais</button>
+            </div>
+            <div class="imagem_principal">
+               <img src="images/galaxy_img.svg">
+            </div>
+         </div>
+      </div>
+      <div class="next_page">
+         <a href="#sobre_nos">
+            <img src="images/seta_baixo.png">
+         </a>
+      </div>
+</section>
 
-   <div class="valores">
-      <div class="container2">
-         <div class="card">
-            <h1>30</h1>
-            <p>Years experience in banking</p>
+<section id="sobre_nos">
+   <div class="container2">
+      <div class="title_sn">
+         <h1>Sobre nós</h1>
+         <hr>
+      </div>
+      <div class="conteudo_sn">
+         <div class="img_sn">
+            <img src="images/pc.png" alt="">
          </div>
-         <div class="card">
-            <h1>10%</h1>
-            <p>Cashback from each purchase</p>
-         </div>
-         <div class="card">
-            <h1>15</h1>
-            <p>Maximum support team of SPTECH</p>
+         <div class="text_sn">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet nesciunt aliquam quisquam obcaecati dolor corporis atque exercitationem quibusdam asperiores ipsa, ipsum neque facilis deleniti dolorum temporibus tempora consequatur? Nihil.</p>
          </div>
       </div>
    </div>
+   <div class="next_page">
+      <a href="#missao_valores" class="seta_baixo_azul">
+         <img src="images/seta_baixo_azul.png">
+      </a>
+   </div>
+</section>
+
+<section id="missao_valores">
+   <div class="container2">
+      <div class="group_cards">
+
+         <div class="card">
+            <div class="icon_card">
+               <img src="images/missao.png">
+            </div>
+            <div class="text_card">
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="tag_card">
+               <h1>Missão</h1>
+            </div>
+         </div>
+         <div class="card">
+            <div class="icon_card">
+               <img src="images/visao.png">
+            </div>
+            <div class="text_card">
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="tag_card">
+               <h1>Visão</h1>
+            </div>
+         </div>
+         <div class="card">
+            <div class="icon_card">
+               <img src="images/valores.png">
+            </div>
+            <div class="text_card">
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="tag_card">
+               <h1>Valores</h1>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+<section class="footer">
+   <div class="container_footer">
+      <div class="logo_footer">
+         <a href="#main">
+            <h2>SafeSpace</h2>
+         </a>
+      </div>
+      <div class="contato_footer">
+         <p>©Copyright, todos os direitos reservados, 2022</p>
+      </div>
+      <div class="sm_footer">
+         <img src="images/facebook.png">
+         <img src="images/twitter.png">
+         <img src="images/instagram.png">
+      </div>
+   </div>
+</section>
 
 </body>
 </html>
